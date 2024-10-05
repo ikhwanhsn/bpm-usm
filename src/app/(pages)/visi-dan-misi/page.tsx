@@ -1,12 +1,12 @@
-import Image from "next/image";
 import Link from "next/link";
 import visiMisi from "../../../../public/img/visimisi-image.png";
 import { IoMdCheckboxOutline } from "react-icons/io";
+import HeaderAllPages from "@/components/HeaderAllPages";
 
 const VisiDanMisi = () => {
   return (
-    <main className="mx-12">
-      <div className="breadcrumbs text-sm py-3">
+    <main className="mx-12 mb-12">
+      <div className="breadcrumbs py-3">
         <ul>
           <li>
             <Link href="/">Home</Link>
@@ -15,26 +15,11 @@ const VisiDanMisi = () => {
           <li>Visi dan Misi</li>
         </ul>
         <div className="relative">
-          <div className="relative">
-            <Image
-              src={visiMisi}
-              alt="logo"
-              className="w-full mt-3 rounded-xl"
-            />
-            <div
-              className="absolute inset-0 rounded-2xl"
-              style={{
-                backgroundImage:
-                  "linear-gradient(to right, rgba(30, 58, 138, 1), rgba(234, 179, 8, 0.2), transparent)",
-              }}
-            ></div>
-          </div>
-          <section className="absolute top-8 left-10 space-y-2">
-            <p className="text-5xl font-bold text-yellowColor">VISI & MISI</p>
-            <p className="text-3xl font-bold text-white">
-              Badan Penjaminan Mutu Universitas Semarang
-            </p>
-          </section>
+          <HeaderAllPages
+            src={visiMisi}
+            alt="logo visi dan misi"
+            title="Visi dan Misi"
+          />
           <section className="mt-5 text-base">
             <h1 className="text-2xl font-bold">Visi</h1>
             <p className="mt-3">
@@ -184,7 +169,7 @@ const VisiDanMisi = () => {
               </li>
             </ul>
             <h3 className="font-bold mt-3">D. Bidang Pengendalian</h3>
-            <ul className="space-y-2 mt-3 mb-12">
+            <ul className="space-y-2 mt-3">
               <li className="flex items-center gap-1">
                 <IoMdCheckboxOutline />
                 <p>Pengendalian Pelaksanaan Kebijakan SPMI </p>
