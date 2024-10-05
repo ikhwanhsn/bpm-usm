@@ -13,9 +13,7 @@ import {
   MenuList,
   MenuItem,
 } from "@material-tailwind/react";
-import {
-  ChevronDownIcon,
-} from "@heroicons/react/24/outline";
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import indonesiaFlag from "../../public/img/id-logo.png";
 import englishFlag from "../../public/img/us-logo.png";
 import Image from "next/image";
@@ -71,7 +69,7 @@ function LanguageSwitcher() {
             >
               <Image
                 src={indonesiaFlag}
-                alt="indonesia flag"
+                alt="Indonesia flag"
                 className="w-5 h-5"
               />
               Indonesia
