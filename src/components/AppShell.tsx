@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { MdEmail } from "react-icons/md";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
