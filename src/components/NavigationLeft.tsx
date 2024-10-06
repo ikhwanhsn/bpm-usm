@@ -39,7 +39,7 @@ export function NavigationLeft() {
               Audit Mutu Internal [AMI]
             </NavigationMenuTrigger>
             <NavigationMenuContent>
-              <ul className="grid gap-1 p-4 md:w-[100px] lg:w-[200px] ">
+              <ul className="grid gap-1 p-4 md:w-[100px] lg:w-[200px]">
                 <ListItem
                   href="/visi-dan-misi"
                   title="Visi Dan Misi"
