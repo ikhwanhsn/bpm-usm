@@ -42,7 +42,7 @@ const sopAuditMutuInternal = [
   },
   {
     title: "SOP Pelaksanaan Rapat Tinjauan Umum",
-    link: "/sop-pelaksanaan-rtu",
+    link: "/sop-pelaksanaan-rtm",
   },
 ];
 const dokumenSPMI = [
@@ -137,7 +137,9 @@ export function MenuBar() {
           </MenubarContent>
         </MenubarMenu>
       </section>
-      <Image src={navbarLogo} alt="visi-misi" width={400} height={400} />
+      <Link href="/">
+        <Image src={navbarLogo} alt="visi-misi" width={400} height={400} />
+      </Link>
       <section className="col-span-1 flex items-center justify-center gap-5">
         <MenubarMenu>
           <MenubarTrigger className="cursor-pointer hover:bg-white hover:text-black">

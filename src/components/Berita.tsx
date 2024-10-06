@@ -23,7 +23,7 @@ export default Berita;
 
 const CardBerita = () => {
   return (
-    <section className="w-72">
+    <section className="w-full">
       <section className="relative">
         <section className="w-72 h-52 rounded-lg bg-blueColor"></section>
         <p className="bg-white px-2 py-1 text-sm rounded-xl absolute top-2 left-2 font-semibold">
